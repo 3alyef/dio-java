@@ -1,5 +1,7 @@
 package associacao;
 
 public class Compra {
-	Cupom cupom;
+	void finalizar(Cupom cupom) {
+		
+	}
 }
