@@ -1,12 +1,18 @@
 package heranca_2;
 
-public class Funcionario {
+public abstract class Funcionario {
 	private String name;
 	private double salario;
 	
 	public Funcionario(String name, double salario) {
 		this.setName(name);
 		this.setSalario(salario);
+	}
+	
+	protected String getAbout() {
+		String about = "\nNome: "+this.name+"\nSalário: "+this.salario;
+		
+		return about;
 	}
 
 	protected String getName() {
