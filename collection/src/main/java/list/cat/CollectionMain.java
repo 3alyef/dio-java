@@ -1,12 +1,7 @@
-package collection.dio.aulas.de.java;
+package main.java.list.cat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import collection.dio.aulas.de.java.cat.Cat;
-import collection.dio.aulas.de.java.cat.ComparatorIdade;
-import collection.dio.aulas.de.java.cat.ComparatorCor;
-import collection.dio.aulas.de.java.cat.ComparatorNomeCorIdade;
 public class CollectionMain {
 
 	public static void main(String[] args) {

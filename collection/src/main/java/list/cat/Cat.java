@@ -1,4 +1,4 @@
-package collection.dio.aulas.de.java.cat;
+package main.java.list.cat;
 
 public class Cat implements Comparable<Cat> {
 	private String nome;
