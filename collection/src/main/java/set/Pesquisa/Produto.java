@@ -1,8 +1,7 @@
 package main.java.set.Pesquisa;
 
-import java.util.Comparator;
 
-public class Produto implements Comparator<Produto> {
+public class Produto {
 	private String nome;
 	private int quantidade;
 	private double preco;
@@ -35,12 +34,5 @@ public class Produto implements Comparator<Produto> {
 				+ quantidade + ", "
 				+ preco + "}";
 	}
-	@Override
-	public int compare(Produto arg0, Produto arg1) {
-		// TODO Auto-generated method stub
-		return Double.compare(arg0.getPreco(), arg1.getPreco());
-	}
-	
-	
 	
 }
